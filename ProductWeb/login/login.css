@@ -1,0 +1,70 @@
+/* Estilos para el contenedor principal */
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f8f9fa; /* Color de fondo */
+}
+/* Estilos para el encabezado */
+
+header h1 {
+    margin-top: 0; /* Eliminar el margen superior predeterminado */
+    font-size: 30px; /* Tamaño de fuente */
+    color: #333; /* Color del texto */
+    text-align: center; /* Centrar el texto */
+}
+
+/* Estilos para el encabezado */
+.row h1 {
+    text-align: center; /* Centrar el texto */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+/* Estilos para el formulario de inicio de sesión */
+#loginForm {
+    background-color: #fff; /* Color de fondo */
+    padding: 20px; /* Espacio interior */
+    border-radius: 5px; /* Borde redondeado */
+}
+
+/* Estilos para las etiquetas de los campos */
+.form-login label,
+.form-password label {
+    display: block; /* Convertir en bloque */
+    margin-bottom: 5px; /* Espacio inferior */
+}
+
+/* Estilos para los campos de entrada */
+.form-control {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Relleno */
+    margin-bottom: 10px; /* Espacio inferior */
+    border: 1px solid #ced4da; /* Borde */
+    border-radius: 4px; /* Borde redondeado */
+}
+
+/* Estilos para la leyenda de entrada inválida */
+.invalid-feedback {
+    color: red; /* Color del texto */
+    margin-top: 5px; /* Espacio superior */
+}
+
+/* Estilos para el botón de ingresar */
+.btn-primary {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Relleno */
+    background-color: #007bff; /* Color de fondo */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Borde redondeado */
+    cursor: pointer; /* Cursor de puntero */
+}
+
+/* Estilos para el enlace de '¿Olvidaste tu contraseña?' */
+.no-cuenta a {
+    color: #007bff; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+    display: block; /* Convertir en bloque */
+    margin-top: 10px; /* Espacio superior */
+    text-align: center; /* Centrar el texto */
+}

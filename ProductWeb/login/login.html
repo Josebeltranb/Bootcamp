@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <section class="container">
+
+        <header class="row">
+            <h1>Ingrese a su cuenta</h1>
+        </header>
+
+        <div>
+            <img src="https://iconos8.es/icon/7WwZau6gMj6x/customer" alt="login-icon" style="height: 7rem;">
+        </div>
+
+
+
+        <form id="loginForm">
+            <div class="form-login">
+                <label for="inputEmail">Dirección de correo electrónico:</label>
+                <input type="email" class="form-control" id="inputEmail" required
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                <div class="invalid-feedback">
+                    Por favor ingresa un correo válido.
+                </div>
+            </div>
+
+            <div class="form-password">
+                <label for="inputPassword">Contraseña:</label>
+                <input type="password" class="form-control" id="inputPassword" required minlength="6">
+                <div class="invalid-feedback">
+                    La contraseña debe tener al menos 6 caracteres.
+                </div>
+            </div>
+
+            <div> </div>
+           
+            <footer class="form-footer">
+                <div>
+                    <button type="submit" class="btn btn-primary">Ingresar</button>
+                </div>
+                        <div class="no-cuenta">
+                    <a href="#">¿Olvidaste tu contraseña?</a>
+                </div>
+            </footer>
+
+
+        </form>
+       
+    </section>
+
+    
+
+
+    <!-- Script personalizado -->
+    <script src="login.css"></script>
+
+</body>
+
+</html>
