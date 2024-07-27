@@ -1,0 +1,14 @@
+openapi: 3.0.3
+info:
+  title: Swagger for ProductWeb
+  version: 1.0.0
+  description: Swagger for API of ProductWeb
+  contact:
+    email: alejo8591@gmail.com
+    name: Alejandro Romero
+    url: 'https://github.com/alejo8591'
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+servers:
+  - url: 'http://localhost:3000/api/v1'
